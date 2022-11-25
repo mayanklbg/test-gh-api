@@ -1,1 +1,1 @@
-FROM ubuntu as hell
+FROM ubuntu:latest
