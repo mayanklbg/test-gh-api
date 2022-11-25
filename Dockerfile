@@ -1,1 +1,1 @@
-FROM ubuntu as hello
+FROM ubuntu as hell
