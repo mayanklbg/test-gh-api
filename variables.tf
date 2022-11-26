@@ -454,6 +454,11 @@ variable "enable_shielded_nodes" {
   description = "Enable Shielded Nodes features on all nodes in this cluster. Defaults to true."
   default     = true
 }
+variable "enable_shielded_nodes" {
+  type        = bool
+  description = "Enable Shielded Nodes features on all nodes in this cluster. Defaults to true."
+  default     = true
+}
 
 variable "additional_node_pools" {
   type        = list(map(string))
